@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+
+# big bioinformatics outputs (edit as needed)
+*.fmg*.csv
+*.bam
+*.fastq
+*.fq
+*.gz
+*.zip
+EOF
+
